@@ -2,157 +2,6 @@
 
 > 音乐播放器
 
-## 目录结构
-
-```
-│  App.vue
-│  main.js
-│
-├─api
-│      .gitkeep
-│      config.js
-│      rank.js
-│      reccomend.js
-│      search.js
-│      singer.js
-│      song.js
-│
-├─base
-│  ├─confirm
-│  │      confirm.vue
-│  │
-│  ├─listview
-│  │      listview.vue
-│  │
-│  ├─loading
-│  │      loading.gif
-│  │      loading.vue
-│  │
-│  ├─no-result
-│  │      no-result.vue
-│  │
-│  ├─progress-bar
-│  │      progress-bar.vue
-│  │
-│  ├─progress-circle
-│  │      progress-circle.vue
-│  │
-│  ├─scroll
-│  │      scroll.vue
-│  │
-│  ├─search-box
-│  │      search-box.vue
-│  │
-│  ├─search-list
-│  │      search-list.vue
-│  │
-│  ├─slider
-│  │      slider.vue
-│  │
-│  └─song-list
-│          first@2x.png
-│          first@3x.png
-│          second@2x.png
-│          second@3x.png
-│          song-list.vue
-│          third@2x.png
-│          third@3x.png
-│
-├─common
-│  ├─fonts
-│  │      music-icon.eot
-│  │      music-icon.svg
-│  │      music-icon.ttf
-│  │      music-icon.woff
-│  │
-│  ├─image
-│  │      default.png
-│  │      dio.png
-│  │      laugh.png
-│  │
-│  ├─js
-│  │      .gitkeep
-│  │      cache.js
-│  │      config.js
-│  │      dom.js
-│  │      jsonp.js
-│  │      mixin.js
-│  │      singer.js
-│  │      song.js
-│  │      uid.js
-│  │      util.js
-│  │
-│  └─stylus
-│          base.styl
-│          icon.styl
-│          index.styl
-│          mixin.styl
-│          reset.styl
-│          variable.styl
-│
-├─components
-│  │  .gitkeep
-│  │
-│  ├─disc
-│  │      disc.vue
-│  │
-│  ├─m-header
-│  │      logo@2x.png
-│  │      logo@3x.png
-│  │      m-header.vue
-│  │
-│  ├─music-list
-│  │      music-list.vue
-│  │
-│  ├─player
-│  │      player.vue
-│  │
-│  ├─rank
-│  │      rank.vue
-│  │
-│  ├─rank-detail
-│  │      rank-detail.vue
-│  │
-│  ├─recommend
-│  │      recommend.vue
-│  │
-│  ├─search
-│  │      search.vue
-│  │
-│  ├─singer
-│  │      singer.vue
-│  │
-│  ├─singer-detail
-│  │      singer-detail.vue
-│  │
-│  ├─suggest
-│  │      suggest.vue
-│  │
-│  └─tab
-│          tab.vue
-│
-├─router
-│      index.js
-│
-├─store
-│      actions.js
-│      getters.js
-│      index.js
-│      mutation-types.js
-│      mutations.js
-│      state.js
-│
-└─style
-    │  config.json
-    │
-    └─theme
-        │  index.css
-        │
-        └─fonts
-                element-icons.ttf
-                element-icons.woff
-```
-
 ## Build Setup
 
 ``` bash
@@ -318,7 +167,6 @@ function resolve(dir) {
             path:'',
         })
        ```
-    + 
 
 ### 搜索界面
 
@@ -341,7 +189,6 @@ function resolve(dir) {
     
     + 使用loading组件使过渡平滑，将是否具有下一页搜索值的标志位传为`v-show`的标志
     >better-scroll Dom 结构发生变化后都需要刷新 refresh
-* 
 
 
     
