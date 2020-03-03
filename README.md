@@ -32,7 +32,7 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 
 + 滚动原理同浏览器类似，必须是子元素内容的高度大于视口时才会发生滚动
 
-## VUe-music 学习总结
+## Vue-music 学习总结
 
 ### 脚手架配置
 
